@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../style/Login.css"; // Import the CSS file
 import { useNavigate } from "react-router-dom";  // Import useNavigate
 import login_image from '../img/medisync_login_image.png';
+import medisync_logo from '../img/medisync_logo.png';
 import { loginUser } from "../api/authService";
 import { FaGoogle } from "react-icons/fa";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -91,7 +92,8 @@ const Login = () => {
 
             <div className="login-right">
                 <div className="login-box">
-                    <h1 className="brand-name">MediSync</h1>
+                    <img src={medisync_logo} alt="MediSync Logo" className="logo" />
+                    {/* <h1 className="brand-name">MediSync</h1> */}
                     <form className="login-form" onSubmit={handleLogin}>
                         <label>Email ID</label>
                         <input type="email" placeholder="Enter your email" value={email}
