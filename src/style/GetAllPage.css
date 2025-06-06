@@ -1,0 +1,163 @@
+.scan-table-container {
+    /* padding: 20px; */
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.scan-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.scan-table thead {
+    background-color: #1d3557;
+    color: white;
+    border-radius: 8px;
+}
+
+.scan-table th {
+    padding: 18px 20px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.scan-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.scan-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.scan-table td {
+    padding: 12px 16px;
+}
+
+.scan-name strong {
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+.scan-name span {
+    font-size: 12px;
+    color: #666;
+}
+
+.scan-frequency {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #e0f7fa;
+    color: #00796b;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+.latest-run {
+    color: #333;
+}
+
+.run-stability1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.run-stability1 small {
+    font-weight: bold;
+}
+
+.status-active {
+    text-transform: capitalize;
+    color: #008000;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.status-scanning {
+    text-transform: capitalize;
+    color: #ff9800;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+
+.status-active {
+    color: green;
+    font-weight: 600;
+    font-size: 0.90rem;
+
+}
+
+.status-scanning {
+    color: orange;
+    font-weight: 600;
+    font-size: 0.90rem;
+}
+
+/* nnnnnnnnnnnn */
+
+.clickable-row {
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.clickable-row:hover {
+    background-color: #f5f5f5;
+}
+
+.expanded-row {
+    background-color: #eef2f6;
+}
+
+.details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.details-table th,
+.details-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.details-table th {
+    background-color: #002366;
+    color: white;
+}
+
+.details-table td {
+    background-color: #ffffff;
+}
+
+.small-spinner {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    border-top: 2px solid #333;
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.scan-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

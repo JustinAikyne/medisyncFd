@@ -1,0 +1,76 @@
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    height: 100vh; /* Full height */
+  }
+  
+  .sidebar-title {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #e9ecef;
+  }
+  
+  .sidebar-icon {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #007bff;
+  }
+  
+  .sidebar-footer {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds gap between buttons */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+  }
+  
+  .button {
+    flex: 1; /* Makes both buttons equal width */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .button.active {
+    background-color: #001f70; /* Blue color */
+    color: #ffffff;
+  }
+  .fa-person{
+    width: 20px;
+    font-size: 20px;
+  }
+  .dropdown-icon{
+    margin-left: 10px;
+  }

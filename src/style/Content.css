@@ -1,0 +1,134 @@
+.content-container {
+    margin-left: 20px;
+    background-color: #f8f9fa;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    font-size: 22px;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.content-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.download-button {
+    background-color: #01b6a8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 50px;
+}
+
+.download-button:hover {
+    background-color: #007f43;
+}
+
+/* gjxffffffffjfkghdkkkgkgkgkdyi */
+.content-card {
+    display: flex;
+    background-color: white;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    transition: box-shadow 0.3s ease;
+    width: 50%;
+    height: 300px;
+    margin-left: 25%;
+}
+
+.content-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-text {
+    flex: 1;
+    max-width: 60%;
+    /* text width */
+}
+
+.card-text h2 {
+    font-size: 24px;
+    /* title size */
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #2b2b2b;
+}
+
+.card-text p {
+    font-size: 16px;
+    /* Slightly larger font */
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.create-scan-button {
+    background-color: #002b5b;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    /* Larger font for button */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Add space for potential icons */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Button shadow */
+}
+
+.create-scan-button:hover {
+    background-color: #001f40;
+}
+
+.card-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f9ff;
+    /* Add background color */
+    border-radius: 12px;
+    padding: 20px;
+    /* Padding inside the image container */
+}
+
+.card-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0;
+    /* Remove rounding for image */
+}

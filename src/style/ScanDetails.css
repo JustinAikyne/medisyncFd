@@ -1,0 +1,78 @@
+.scan-table-container {
+    /* padding: 20px; */
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.scan-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.scan-table thead {
+    background-color: #1d3557;
+    color: white;
+    border-radius: 8px;
+
+}
+
+.scan-table th {
+    padding: 18px 50px;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.scan-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.scan-table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.scan-table td {
+    padding: 12px 16px;
+}
+
+.scan-name strong {
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+.scan-name span {
+    font-size: 12px;
+    color: #666;
+}
+
+.scan-frequency {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #e0f7fa;
+    color: #00796b;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+.latest-run {
+    color: #333;
+}
+
+.run-stability {
+    display: flex;
+    flex-direction: column;
+}
+
+.run-stability span {
+    font-weight: bold;
+}
+
+.run-stability small {
+    font-size: 12px;
+    /* color: #666; */
+}
