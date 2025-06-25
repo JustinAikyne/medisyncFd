@@ -93,7 +93,7 @@ const Login = () => {
             <div className="login-right">
                 <div className="login-box">
                     <img src={medisync_logo} alt="MediSync Logo" className="logo" />
-                    {/* <h1 className="brand-name">MediSync</h1> */}
+                    <h1 className="brand-name">Login</h1>
                     <form className="login-form" onSubmit={handleLogin}>
                         <label>Email ID</label>
                         <input type="email" placeholder="Enter your email" value={email}
